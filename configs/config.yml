@@ -1,0 +1,23 @@
+db:
+  port:
+  sslmode:
+  host:
+  username:
+  dbname:
+
+http:
+  port: 80
+  MaxHeaderMegabytes: 1
+  readTimeout: 10s
+  writeTimeout: 10s
+
+grpc:
+  port: 50080
+
+grpcFD:
+  port: 58081
+  host: 165.232.68.67
+
+grpcRA:
+  port: 58080
+  host: 165.232.68.67
